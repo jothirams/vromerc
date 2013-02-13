@@ -1,0 +1,16 @@
+
+noremap x b
+map b gT
+map n gt
+map m <C-o>
+map , <C-i>
+map l <C-d>
+map h <C-u>
+map v <C-b>
+map d dc
+
+map j 3j
+map k 3k
+
+set useletters=1
+set searchengines+={"dict":"http://dictionary.reference.com/dic?q={{keyword}}&s=t", "py":"http://www.google.com/search?tbs=qdr:y&q={{keyword}}&{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}sourceid=chrome&ie={inputEncoding}}", "so":"http://meta.stackoverflow.com/search?q={{keyword}}"}
