@@ -1,6 +1,6 @@
+map n gt
 noremap x b
 map b gT
-map n gt
 map m <C-o>
 map , <C-i>
 map l <C-d>
