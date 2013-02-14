@@ -23,7 +23,7 @@ set allow_numeric=1
 set disablesites=mail.google.com, reader.google.com // don't run Vrome in those sites
 
 " Change enable vrome keybinding, default is <C-Esc>
-set enable_vrome_key=<Esc>
+" set enable_vrome_key=<Esc>
 
 " Set your hintkeys instead of the default 0123456789
 set hintkeys=jlkhfsdagwerui
