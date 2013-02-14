@@ -9,5 +9,36 @@ map v <C-b>
 map d dc
 map j 3j
 map k 3k
+
+" Change hotkey for go next / previous / next 10 / previous 10 matched item in autocomplete
+set autocomplete_prev=<S-Tab>
+set autocomplete_next=<Tab>
+set autocomplete_prev_10=<Up>
+set autocomplete_next_10=<Down>
+
+" allows numeric keys to work on the page + be used for count
+set allow_numeric=1
+
+" Disable Vrome in those sites, Multiple URLs can be separated with ','
+set disablesites=mail.google.com, reader.google.com // don't run Vrome in those sites
+
+" Change enable vrome keybinding, default is <C-Esc>
+set enable_vrome_key=<Esc>
+
+" Set your hintkeys instead of the default 0123456789
+set hintkeys=jlkhfsdagwerui
+" Alternative: creates two sets of hint keys separated by a semicolon. First
+set uses keys close to the home row to create combinations, second set is used as a last resort
+" Note: this trigger the smart sorting in multi mode. Matching elements by level of similarity
+set hintkeys=dsafrewq,tgcx
 set useletters=1
+
+
+" add custom quick marks
+set qm_gm=https://mail.google.com
+" custom quick marks longer than one key
+set qm_hn=http://news.ycombinator.com
+set qm_ll=http://localhost:8080/
+set qm_ly=http://localhost:3501/
+
 set searchengines+={"dict":"http://dictionary.reference.com/dic?q={{keyword}}&s=t", "py":"http://www.google.com/search?tbs=qdr:y&q={{keyword}}&{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}sourceid=chrome&ie={inputEncoding}}", "so":"http://meta.stackoverflow.com/search?q={{keyword}}"}
