@@ -1,0 +1,52 @@
+" :source ~/_vimperatorrc
+" set hm=firstletters,contains,transliterated"
+set defsearch=google
+set hintchars=wertuiopasdfjklnbmc,;
+
+
+
+"autocmd LocationChange .* :js modes.passAllKeys = /mail\.google\.com|www\.google\.com\/reader\/view/.test(buffer.URL)
+
+let mapleader = "\"
+
+nnoremap x b
+nnoremap <Leader>n n
+
+" previous tab
+nnoremap b gT
+" next tab
+nnoremap n gt
+" previous page
+nnoremap m <C-o>
+" next page
+nnoremap , <C-i>
+" tab duplicate
+nnoremap n tabduplicate
+
+" scroll faster
+nnoremap h h
+nnoremap j 5j
+nnoremap k 5k
+nnoremap l l
+
+"Restart the browser
+nnoremap <C-r> :restart<CR>
+
+" ==============================================================================
+" = theming =
+" ==============================================================================
+
+" note firefox chrome is set in userChrome.css
+
+" vimperator chrome
+" highlight=Hint font-size:108%;color:white;background-color:rgb(71, 119, 255);padding:2px
+highlight Normal background-color: black; color: white
+highlight CmdLine background-color: black; color: white
+highlight PromptText background-color: black; color: white
+highlight InfoMsg background-color: black; color: white
+
+highlight CompItem[selected] background-color: white; color: black
+
+highlight Hint background-color: white; color: black; border: 1px solid #000000
+highlight HintActive background-color: white; color: black; border: 1px solid #000000
+highlight HintElem background-color: white; color: black; border: 1px solid #000000
