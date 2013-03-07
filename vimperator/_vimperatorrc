@@ -1,7 +1,7 @@
 " :source ~/_vimperatorrc
 " set hm=firstletters,contains,transliterated"
 set defsearch=google
-set hintchars=wertuiopasdfjklnbmc,;
+set hintchars=wertuiopasdfjklnbmc
 
 
 
@@ -21,7 +21,7 @@ nnoremap m <C-o>
 " next page
 nnoremap , <C-i>
 " tab duplicate
-nnoremap n tabduplicate
+nnoremap tn tabduplicate
 
 " scroll faster
 nnoremap h h
