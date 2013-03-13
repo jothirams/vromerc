@@ -24,10 +24,13 @@ nnoremap , <C-i>
 nnoremap tn tabduplicate
 
 " scroll faster
-nnoremap h h
-nnoremap j 5j
-nnoremap k 5k
-nnoremap l l
+nnoremap h 2h
+nnoremap j 8j
+nnoremap k 8k
+nnoremap l 2l
+
+" Open link in background
+nnoremap c F
 
 "Restart the browser
 nnoremap <C-r> :restart<CR>
