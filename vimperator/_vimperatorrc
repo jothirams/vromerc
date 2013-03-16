@@ -21,7 +21,7 @@ nnoremap m <C-o>
 " next page
 nnoremap , <C-i>
 " tab duplicate
-nnoremap tn tabduplicate
+nnoremap w tabduplicate
 
 " scroll faster
 nnoremap h 2h
@@ -30,7 +30,7 @@ nnoremap k 8k
 nnoremap l 2l
 
 " Open link in background
-nnoremap c F
+nnoremap v F
 
 "Restart the browser
 nnoremap <C-r> :restart<CR>
