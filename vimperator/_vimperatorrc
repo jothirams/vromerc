@@ -32,6 +32,49 @@ nnoremap l 2l
 " Open link in background
 nnoremap v F
 
+" about:configs
+" Do not autoScroll
+set! general.autoScroll=false
+set! ui.key.generalAccessKey=0
+" Hide close button on tabs
+set! browser.tabs.closeButtons=2
+set! browser.tabs.closeWindowWithLastTab=false
+" Always open in background and never leave focus of the current tab.
+set! browser.tabs.loadDivertedInBackground=true
+set! browser.urlbar.filter.javascript=false
+set! browser.urlbar.maxRichResults=20
+set! browser.sessionstore.max_tabs_undo=20
+set! browser.sessionstore.max_concurrent_tabs=0
+set! browser.startup.homepage=http://www.google.com
+set! dom.popup_maximum=200
+set! mousewheel.withnokey.numlines=6
+set! mousewheel.withnokey.sysnumlines=false
+
+" QMarks {{{1
+" go<letter>
+" gn<letter> - in new tab
+
+silent qmark a https://accounts.google.com/AddSession?hl=en&continue=https://mail.google.com/mail/u/0/&service=mail
+silent qmark b http://bitbucket.org/
+silent qmark c http://www.google.com/calendar/render?hl=ja
+silent qmark e https://www.evernote.com/Home.action
+silent qmark f http://facebook.com
+silent qmark F http://favstar.fm/me
+silent qmark g https://mail.google.com/mail/u/1/?shva=1#inbox
+silent qmark G https://github.com/
+silent qmark h http://honyaku.yahoo.co.jp/
+silent qmark H http://translate.google.com/#en/de/
+silent qmark l http://reader.livedoor.com/reader/
+silent qmark m https://mail.google.com/mail/
+silent qmark r http://www.google.co.jp/reader/
+silent qmark M http://mixi.jp/home.pl
+silent qmark t http://twitter.com/home/
+silent qmark T http://www.tumblr.com/dashboard/
+silent qmark p http://www.pixiv.net/mypage.php
+silent qmark w http://www.wolframalpha.com/
+silent qmark W https://wave.google.com/wave/
+silent qmark y http://news.ycombinator.com/
+
 "Restart the browser
 nnoremap <C-r> :restart<CR>
 
