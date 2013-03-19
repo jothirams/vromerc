@@ -68,9 +68,9 @@ silent qmark l http://reader.livedoor.com/reader/
 silent qmark m https://mail.google.com/mail/
 silent qmark r http://www.google.co.jp/reader/
 silent qmark M http://mixi.jp/home.pl
+silent qmark p http://www.pinboard.in/
 silent qmark t http://twitter.com/home/
 silent qmark T http://www.tumblr.com/dashboard/
-silent qmark p http://www.pixiv.net/mypage.php
 silent qmark w http://www.wolframalpha.com/
 silent qmark W https://wave.google.com/wave/
 silent qmark y http://news.ycombinator.com/
